@@ -55,7 +55,7 @@ menu_bar.add_cascade(label="Tệp", menu=file_menu)
 
 edit_menu = tk.Menu(menu_bar, tearoff=0)
 edit_menu.add_command(label="Định dạng văn bản", command=format_text)
-edit_menu.add_command(label="Đếm từ", command=word_count)
+edit_menu.add_command(label="Đếm từ", command=word_count)ls
 
 text.tag_configure("search", background="yellow")
 root.config(menu=menu_bar)
